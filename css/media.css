@@ -1,0 +1,158 @@
+@media (max-width:1164px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .hed-text h1 a {
+        font-size: 40px;
+    }
+    .hed-texto h1 {
+        font-size: 20px;
+    }
+    .hed-card h2 {
+        font-size: 20px;
+    }
+    .hed-icon ul a li img {
+        width: 40px;
+    }
+    .img-sec-two img {
+        width: 300px;
+    }
+    .sec-two-text {
+        margin-left: 100px;
+    }
+    .sec-two-text p {
+        font-size: 15px;
+    }
+    .slider-item {
+        width: 100%;
+    }
+    .social-icon-bar {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .progress-area {
+        width: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .header-logo {
+        text-align: center;
+    }
+    .hed-card {
+        margin-right: 0px;
+    }
+    .hed-icon ul {
+        justify-content: center;
+    }
+    .img-sec-two {
+        text-align: center;
+    }
+    .yu-video {
+        height: 300px;
+    }
+    .yu-video iframe {
+        width: 100%;
+        height: 100%;
+        padding: 30px 5px;
+    }
+    .social-icon-bar ul a li img {
+        height: 20px;
+    }
+    .footer-logo img {
+        width: 500px;
+        height: 100%;
+    }
+    .column.half {
+        flex: 0 0 100%;
+    }
+    .img-area {
+        text-align: left;
+    }
+    .img-area img {
+        height: 70%;
+    }
+    .song-details {
+        bottom: 152px;
+        left: 215px;
+    }
+    .song-details .name {
+        font-size: 18px;
+    }
+    .controls {
+        left: 212px;
+        bottom: 136px;
+    }
+    .progress-area {
+        bottom: 109px;
+        right: 14px;
+    }
+}
+
+@media(max-width:576px) {
+    .hed-icon ul a li img {
+        width: 33px;
+    }
+    .sec-two-text {
+        margin: auto;
+        margin-top: 25px;
+    }
+    .yu-video {
+        height: 100%;
+    }
+    .overlay {
+        visibility: hidden;
+    }
+    .slider-item:hover .overlay,
+    .slider-item:hover .caption {
+        visibility: visible;
+        animation: fade 0.5s;
+    }
+    .contact-info {
+        width: 100%;
+    }
+    .info {
+        padding: 10px 15px;
+    }
+    .col-5 h5,
+    .info-con h5 a {
+        font-size: 15px;
+    }
+    .social-icon-bar ul a li img {
+        padding-right: 3px;
+        padding-left: 3px;
+        height: 13px;
+    }
+    .footer-title h4,
+    .footer-titleto h5 {
+        font-size: 18px;
+    }
+    .footer-logo img {
+        width: 300px;
+        height: 100%;
+    }
+    .img-area {
+        text-align: center;
+    }
+    .song-details {
+        bottom: -18px;
+        left: 62px;
+    }
+    .controls {
+        left: 56px;
+        bottom: -15px;
+    }
+    .progress-area {
+        width: 100%;
+        bottom: -40px;
+        right: 0;
+    }
+    .music-list.show {
+        margin-top: 77px;
+    }
+}
